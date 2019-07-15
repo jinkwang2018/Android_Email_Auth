@@ -1,0 +1,190 @@
+<resources>
+    <!-- Login -->
+    <string name="app_name">Auth</string>
+    <string name="otp">OTP</string>
+    <string name="otpno">OTP 인증번호</string>
+    <string name="otpno_content">OTP 인증번호 입력</string>
+    <string name="login">로그인</string>
+    <string name="login_auto">자동 로그인</string>
+    <string name="userid">아이디</string>
+    <string name="email_content">이메일 주소 입력</string>
+    <string name="password">비밀번호</string>
+    <string name="password_content">비밀번호 입력</string>
+    <string name="password_format">10글자 이상의 영어,숫자,특수문자의 혼합문자.</string>
+    <string name="confirm_password">비밀번호 확인</string>
+    <string name="userid_register">신규회원 가입</string>
+    <string name="resetpwd">비밀번호 찾기</string>
+    <string name="slash">/</string>
+
+    <string name="telno">전화번호</string>
+    <string name="telno_content">전화번호 입력</string>
+    <string name="name">성명</string>
+    <string name="name_content">성명 입력</string>
+    <string name="register">가입</string>
+    <string name="resetpwd_notice">비밀번호를 분실하였을 때, 고객님의 이메일로 임시 비밀번호를 보내 드립니다.\n가입하신 이메일 주소와 핸드폰 인증을 한 후에 메일발송 버튼을 눌러주세요.</string>
+    <string name="send_email">메일 발송</string>
+
+    <!-- Balance -->
+    <string name="balance">잔액</string>
+    <string name="deposit_addr">받는사람 주소</string>
+    <string name="deposit_content">QR코드를 스캔해 주세요</string>
+    <string name="tramt_deposit">금액</string>
+    <string name="tramt_deposit_content">금액</string>
+    <string name="tramt_billing">금액</string>
+    <string name="tramt_billing_content">금액</string>
+    <string name="memo">메모</string>
+    <string name="memo_content">메모</string>
+    <string name="description">적요</string>
+    <string name="qrscan">QR코드 스캔</string>
+    <string name="payment">지불</string>
+    <string name="user_addr">자신의 주소</string>
+    <string name="qrmake">QR코드 생성</string>
+    <string name="trlog">거래내역</string>
+    <string name="trlog_0count">거래내역이 존재하지 않습니다.</string>
+    <string name="logout">로그아웃</string>
+    <string name="cur_password">현재 비밀번호</string>
+    <string name="new_password">새로운 비밀번호</string>
+    <string name="confirm_new_password">새로운 비밀번호 확인</string>
+    <string name="change_pwd">비밀번호 변경</string>
+    <string name="change_info">회원정보 변경</string>
+    <string name="setting">설정</string>
+    <string name="title_exit">QRsPay 앱을 종료하시겠습니까?</string>
+    <string name="please_wait">잠시만 기다려주세요!</string>
+    <string name="minute">분</string>
+
+    <string name="genuine1">취소</string>
+    <string name="genuine2">확인</string>
+
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="exit">종료</string>
+    <string name="later">나중에</string>
+    <string name="next">다음</string>
+    <string name="update">업데이트</string>
+
+    <string name="trans_tab1">잔액</string>
+    <string name="trans_tab2">지불</string>
+    <string name="trans_tab3">청구</string>
+    <string name="trans_tab4">정품</string>
+    <string name="trans_tab5">메뉴</string>
+
+    <!-- 메뉴리스트 정의 : 리스트명 -->
+    <string name="tab_nm_setting">설정</string>
+    <string name="tab_nm_change_pwd">비밀번호 변경</string>
+    <string name="tab_nm_change_userinfo">회원정보 변경</string>
+    <string name="tab_nm_server">서버 설정</string>
+    <string name="tab_nm_otp">OTP 설정</string>
+    <string name="tab_nm_logout">로그아웃</string>
+
+    <!-- 메뉴리스트 정의 : 리스트 설명 -->
+    <string name="tab_desc_setting">로그아웃 시간을 설정</string>
+    <string name="tab_desc_change_pwd">회원의 비밀번호를 변경</string>
+    <string name="tab_desc_change_userinfo">회원의 전화번호, 성명을 변경</string>
+    <string name="tab_desc_server">서버를 선택</string>
+    <string name="tab_desc_otp">OTP 설정을 변경</string>
+    <string name="tab_desc_logout">로그인 화면으로 이동</string>
+
+    <!-- 메뉴-OTP -->
+    <string name="google_otp">Google OTP :</string>
+    <string name="not_set">미설정</string>
+    <string name="otp_notice">Google OTP 설정을 변경하려면 전화로 인증을 거쳐야 합니다.</string>
+    <string name="receive_verifyno">인증 번호 받기 :</string>
+    <string name="tel_verification">전화인증</string>
+    <string name="enter_verifyno">인증 번호 입력 :</string>
+    <string name="otp_setup_method">Google OTP 설정 방법</string>
+    <string name="otp_setup_method1">Google OTP 앱을 모바일 기기에 설치하세요.</string>
+    <string name="otp_setup_method2">Google OTP 인증 key를 Google OTP 앱에 입력하세요.</string>
+    <string name="otp_setup_method3">Google OTP 앱에서 보이는 OTP번호를 입력하세요.</string>
+    <string name="otp_verifykey">인증 key :</string>
+    <string name="otp_app_verifykey">alk123nqn123mfdkf</string>
+    <string name="otp_no">OTP 번호 :</string>
+    <string name="change_otpset">OTP 설정 변경</string>
+
+    <string name="deposit">입금</string>
+    <string name="withdrawal">출금</string>
+    <!-- 뷰티 인증 -->
+    <string name="beautycertification">뷰티자격증</string>
+    <string name="code_nm">코드명</string>
+    <string name="iso">ISO</string>
+    <string name="country">국가</string>
+    <string name="beautyserialno">일련번호</string>
+    <string name="beautywarranty">보증기간</string>
+    <string name="beautywarranty_contents">보증내용</string>
+    <string name="type_table">타입</string>
+    <!-- 정품 -->
+    <string name="crtlog">정품인증 내역</string>
+    <string name="no">번호</string>
+    <string name="crtdate">인증 일시</string>
+    <string name="coins_received">받은 코인</string>
+    <string name="certification">정품인증서</string>
+    <string name="product_nm">상품명</string>
+    <string name="model_nm">모델명</string>
+    <string name="maker">제조사</string>
+    <string name="serialno">일련번호</string>
+    <string name="warranty">보증기간</string>
+    <string name="phrchase_date">구입일자</string>
+    <string name="warranty_contents">보증내용</string>
+
+    <string name="mark_star"> * </string>
+    <string name="app_exit">앱종료</string>
+
+    <string name="language">Language</string>
+    <string name="language_kr">한국어</string>
+    <string name="language_en">English</string>
+
+    <string name="permission_info">QRsPay 이용을 위해\n아래의 필수 접근 권한에 대한\n승인이 필요합니다.</string>
+    <string name="phone">전화</string>
+    <string name="camera">카메라(선택)</string>
+    <string name="location">위치정보(선택)</string>
+    <string name="phone_detail">회원가입, 잔액/거래내역 조회, 지불/청구 이용 시</string>
+    <string name="camera_detail">QR코드 스캔 시</string>
+    <string name="location_detail">QR코드 스캔 시 </string>
+    <string name="permission_notice">권한이 거부될 경우 기능이 정상적으로 작동하지 않을 수 있으며, 선택권한은 해당기능 이용 시 별도 동의를 받습니다.</string>
+    <string name="permission_title">QRsPay 사용 권한 안내</string>
+    <string name="permitssion_set_title">필수 권한 설정 안내</string>
+    <string name="permitssion_set">설정하기</string>
+    <string name="permitssion_set_info">서비스를 이용하기 위한 권한이 설정되어 있지 않습니다. \'설정하기\'를 통해 권한을 승인 해주세요.</string>
+
+    <string name="test_wide_mode">TEST</string>
+    <string name="test_local_mode">TEST LOCAL</string>
+    <string name="piolt_mode">PILOT</string>
+
+    <string name="test_userid"></string>
+    <string name="test_password"></string>
+    <string name="test_telno"></string>
+    <string name="test_user_addr"></string>
+    <string name="test_memo"></string>
+    <string name="test_tramt">0 QRP</string>
+
+    <!-- Alert Message -->
+    <string name="alert_msg_please_userid">아이디를 입력해 주세요.</string>
+    <string name="alert_msg_please_password">비밀번호를 입력해 주세요.</string>
+    <string name="alert_msg_please_otpno">OTP 인증번호를 입력해 주세요.</string>
+    <string name="alert_msg_please_depositaddr">주소를 입력해 주세요.</string>
+    <string name="alert_msg_please_tramt">금액을 입력해 주세요.</string>
+    <string name="alert_msg_please_meno">메모를 입력해 주세요.</string>
+    <string name="alert_msg_please_qrcode_marked">QR코드가 생성되었습니다.\n금액 또는 메모가 변경되면 QR코드를 다시 생성해야 합니다.</string>
+    <string name="alert_msg_error_read_usim">USIM 정보를 읽어오지 못했습니다.\n앱을 종료합니다.</string>
+    <string name="alert_msg_error_read_phone_info">휴대전화 정보를 읽어오지 못했습니다.\n앱을 종료합니다.</string>
+    <string name="alert_msg_error_network">네트워크 연결 후 다시 시도 바랍니다.\n앱을 종료합니다.</string>
+    <string name="alert_msg_logout">%d분 동안 사용하지 않아 로그아웃 되었습니다.</string>
+    <string name="alert_msg_please_telno">전화번호를 입력해 주세요.</string>
+    <string name="alert_msg_please_name">성명을 입력해 주세요.</string>
+    <string name="alert_msg_please_current_pwd">현재 비밀번호를 입력해 주세요.</string>
+    <string name="alert_msg_please_new_pwd">새로운 비밀번호를 입력해 주세요.</string>
+    <string name="alert_msg_error_pwd_format">비밀번호는 8~12글자의 영어와 숫자, 특수문자(1개 이상)만 가능합니다.</string>
+    <string name="alert_msg_please_new_pwd2">새로운 비밀번호 확인을 입력해 주세요.</string>
+    <string name="alert_msg_error_mismatch_new_pwd">비밀번호가 일치하지 않습니다.</string>
+    <string name="alert_msg_error_same_current_pwd">현재 비밀번호와 동일한 비밀번호로 변경할 수 없습니다.</string>
+    <string name="alert_msg_logout_minute_range">1~60 분 사이의 값을 입력해 주세요.</string>
+    <string name="alert_msg_set_logout_minute">자동 로그아웃 기간이 %s분으로 설정되었습니다.</string>
+    <string name="alert_msg_set_server">서버가 설정 되었습니다.</string>
+    <string name="alert_msg_please_pwd2">비밀번호 확인을 입력해 주세요.</string>
+    <string name="alert_msg_please_qrcode_scan">QR코드를 스캔해 주세요.</string>
+    <string name="alert_msg_error_tramt_length">금액범위를 초과했습니다.</string>
+    <string name="alert_msg_success_payment">지불이 성공적으로 완료되었습니다.</string>
+    <string name="alert_msg_success_changing_opt_setting">OTP 설정 변경 성공.</string>
+    <string name="alert_msg_error_check_optno">OTP 번호 인증이 실패했습니다.</string>
+
+
+</resources>
